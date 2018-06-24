@@ -1,0 +1,290 @@
+/*
+Theme Name: NewsInside
+Theme URI: http://www.newsinside.org/
+Description: NewsInside Theme.
+Version: 2.0
+Author: TioSolid
+Tags: bootstrap, variable width, two columns, widgets
+
+NewsInside Blog Wordpress Theme (Bootstrapped)
+*/
+
+h1 {
+	font-size: 14px;
+	margin: 0px;
+}
+
+h2 {
+	font-size: 24px;
+	font-weight: 700;
+	color: #B01818;
+}
+
+a:hover {
+	color: #00C;
+}
+
+a {
+	color: #184988;
+}
+
+a:visited {
+	color: #184988;
+}
+
+.header {
+	background-color: #000;
+	padding-top: 10px;
+}
+
+.featured {
+	padding-bottom: 10px;
+}
+
+#dfcg-image img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+
+}
+
+.podcast-widget {
+	max-width: 400px;
+}
+
+.fb_iframe_widget span {
+	vertical-align: baseline !important;
+}
+
+.gallery {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	max-width: 680px;
+}
+
+.gallery-item {
+	margin: 10px !important;
+	width: auto !important;
+}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignright {
+	float: right;
+}
+
+.alignleft {
+	float: left;
+}
+
+.wp-caption-text {
+	text-align: center;
+	font-size: 85%;
+	font-style: italic;
+}
+
+.ultimos {
+	font-size: 18px;
+}
+
+.content {
+	border: 1px solid #CCC;
+	padding: 5px;
+}
+
+blockquote {
+	font-size: 12px;
+}
+
+.yarpp-thumbnails-horizontal {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	max-width: 650px;
+}
+
+.yarpp-thumbnail-default,
+.yarpp-thumbnail-default > img {
+	max-width: 75px !important;
+	max-height: 75px !important;
+	min-width: 75px !important;
+	min-height: 75px !important;
+	display: block;
+	margin: 5px auto !important;	
+}
+.yarpp-thumbnail {
+	height: auto !important;
+	width: auto !important;
+	min-height: 170px;
+	border: none !important;
+}
+
+.attachment-yarpp-thumbnail {
+	display: block;
+	margin: 5px auto !important;
+	height: auto !important;
+	width: auto !important;
+	max-width: 75px !important;
+	max-height: 75px !important;
+}
+
+.yarpp-thumbnail-title {
+	font-size: 12px !important; 
+	max-height: 65px !important;
+	min-height: 65px !important;
+	width: 85px !important;
+	text-align: center !important;
+	overflow: visible !important;
+} 
+
+/* Centers the thumbnail section */
+.yarpp-related-widget {text-align:center !important;}
+
+.comments-header {
+	font-size: 125%;
+	font-weight: bold;
+}
+
+.postmeta {
+	margin-top: 10px;
+}
+
+.sidebar {
+	border: 1px solid #CCC;
+	padding: 5px;
+	background-color: #EEE;
+}
+
+.sidebar-index {
+	background-color: #FFF;
+}
+
+.sidebar .widget {
+	margin: 5px 5px 10px;
+	list-style: outside none none;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #CCC;
+}
+
+.widgettitle {
+	color: #333;
+	text-transform: uppercase;
+	font-size: 11pt;
+	font-weight: 700;
+}
+
+#syndication .rss a {
+    font-size: 10.5pt;
+    font-weight: bold;
+    color: #B01818;
+}
+
+#syndication a {
+    font-size: 7pt;
+}
+
+
+.entry {
+	border-bottom: 1px dotted #AAA;
+}
+
+.posts {
+	border-bottom: 1px dotted #AAA;	
+}
+
+.posts h2 a:link, 
+.posts h2 a:active,
+.posts h2 a:visited {
+    color: #B01818;
+}
+
+.footer {
+	background-color: #000;
+	margin-top: 10px;
+	color: #FFF;
+}
+
+.footer a {
+	color: #B01818;
+}
+
+.navbar {
+	border-radius: 0px;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.dropdown-menu {
+	font-size: 13px;
+
+}
+
+.navbar-inverse {
+	background-color: #000;
+	border-color: #000;
+}
+
+.navbar-inverse .navbar-nav > li > a  {
+	color: #FFF;
+}
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #FFF;
+    background-color: #111;
+}
+
+.gsc-input-box {
+	height: auto !important;	
+}
+
+.gsc-input {
+	padding-bottom: 10px !important;	
+}
+
+.gsc-search-button {
+	height: 30px !important;
+	width: 70px !important;
+}
+
+.linkforum a {
+    background: url("/newsinside/wp-content/themes/newsinside-bootstrap/images/forum.png") repeat-x scroll 0px 0px transparent;
+    width: 90px;
+    height: 90px;
+    float: right;
+    display: block;
+    margin-left: 10px;
+}
+
+
+.linkforum a{
+	background:url('/wp-content/themes/newsinside/images/forum.png') 0 0 repeat-x;
+	width:90px;
+	height:90px;
+	float:right;
+	display:block;
+	margin-left:10px
+}
+
+.linkforum a:hover{
+	background:url('/wp-content/themes/newsinside/images/forum2.png') 0 0 repeat-x;
+}
+
+.linkloja a{
+	background:url('/wp-content/themes/newsinside/images/loja.png') 0 0 repeat-x;
+	width:90px;
+	height:90px;
+	float:right;
+	display:block
+}
+
+.linkloja a:hover{
+	background:url('/wp-content/themes/newsinside/images/loja2.png') 0 0 repeat-x;
+}
